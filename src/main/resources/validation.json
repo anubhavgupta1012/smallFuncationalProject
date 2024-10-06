@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Employee",
+  "description": "A Employee information",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The unique identifier for a product",
+      "type": "string"
+    },
+    "name": {
+      "description": "Name of the product",
+      "type": "string"
+    },
+    "age": {
+      "description": "age",
+      "type": "number"
+    }
+  }
+}
